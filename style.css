@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    font-family: 'Saira Condensed',
+        sans-serif;
+}
+
+header img {
+    height: 50%;
+    bottom: 270px;
+    right: 75px;
+    position: absolute;
+}
+
+.menu {
+    max-width: 1920px;
+    margin: 20px auto;
+    text-align: right;
+    font-family: 'Saira Condensed',
+        sans-serif;
+}
+
+.menu a {
+
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    margin: 0 30px;
+    border-bottom: 1px solid transparent;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #29a6dc;
+
+}
+
+header {
+    height: 600px;
+    background-color: #29a6dc;
+}
+
+header h1 {
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+header h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+header div.main {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+header button {
+    line-height: 60px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+.technologie {
+    text-align: center;
+}
+
+.obiekt {
+    display: inline-block;
+    width: 33%;
+    padding-top: 2em;
+}
+
+.technologie h1 {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-top: 4%;
+    font-size: 26px;
+}
+
+.technologie img {
+    margin: 5px 0;
+    max-width: 375px;
+}
+
+.technologie p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.motto {
+    text-align: center;
+    background-image: url(motto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.motto h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-top: 3.5em;
+}
+
+.tekst {
+    font-family: 'Saira', sans-serif;
+    font-size: 50px;
+}
+
+.motto p.autor {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 3.5em;
+}
+
+.tlumaczenie {
+    font-size: 21px;
+}
+
+.o_nas {
+    background-color: white;
+    font-family: 'Saira', sans-serif;
+    height: 500px;
+}
+
+.o_nas h2 {
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+}
+
+.tekstonas {
+    height: 350px;
+    background-color: red;
+    margin: 30px 250px;
+    color: white;
+    text-align: justify;
+    padding: 15px 30px;
+}
+
+#kontakt{
+    background-color: #29a6dc;
+}
+
+#kontakt h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+form {
+    width: 340px;
+    margin: auto;
+    padding: 10px 0px 30px;
+    background-color: #afa;
+    border-radius: 30px;
+
+}
+
+.pole {
+    padding: 10px;
+}
+
+#imie,
+#email,
+#tekst {
+    width: 300px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tekst {
+    padding-top: 70px;
+}
+
+#przyciks {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+footer {
+    color: white;
+    background-color: #003850;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0 20px;
+}
