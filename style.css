@@ -106,6 +106,8 @@ header button {
     font-size: 17px;
     font-weight: 300;
     margin: 20px 0;
+    text-align: justify;
+    padding:20px;
 }
 
 .motto {
@@ -123,7 +125,7 @@ header button {
     font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 25px;
-    padding-top: 3.5em;
+    padding-top: 1.5em;
 }
 
 .tekst {
@@ -144,7 +146,7 @@ header button {
 .o_nas {
     background-color: white;
     font-family: 'Saira', sans-serif;
-    height: 500px;
+    height: 300px;
 }
 
 .o_nas h2 {
@@ -156,9 +158,8 @@ header button {
 
 .tekstonas {
     height: 350px;
-    background-color: red;
     margin: 30px 250px;
-    color: white;
+    color: black;
     text-align: justify;
     padding: 15px 30px;
 }
@@ -179,7 +180,6 @@ form {
     width: 340px;
     margin: auto;
     padding: 10px 0px 30px;
-    background-color: #afa;
     border-radius: 30px;
 
 }
@@ -207,15 +207,103 @@ form {
     text-align: center;
 }
 
-
-
-
-
-
 footer {
     color: white;
     background-color: #003850;
     text-align: center;
     font-size: 25px;
     padding: 20px 0 20px;
+}
+
+@media (max-width:1440px)
+{
+    header img{
+        bottom: -1.5vh;
+    }
+}
+
+/* IPHONE X */
+@media (max-width: 812px){
+    .menu{
+        margin:2vh auto;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .menu a{
+        font-size: 2vh;
+        margin: 0 2vh;
+    }
+
+    header div.main
+    {
+        padding-left: 0;
+        text-transform: none;
+    }
+
+    header h1
+    {
+        font-size: 4vh;
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    header h2
+    {
+        font-size: 2vh;
+        text-align: center;
+    }
+
+    header button {
+        margin-left: 0.9vh;
+    }
+
+    header img{
+        bottom:21vh;
+        right: 8vh;
+        height: 25%;
+    }
+
+    .obiekt{
+        width: 100%;
+    }
+
+    .technologie p{
+        text-align: justify;
+        padding:2vh;
+    }
+
+    .technologie h1{
+        font-size: 2vh;
+    }
+    
+    .tekst{
+        font-size: 5vh;
+    }
+
+    .tlumaczenie{
+        padding-top: 2vh;
+        font-size: 3vh;
+    }
+
+    .tekstonas{
+        height: auto;
+        margin: auto;
+    }
+
+    .o_nas{
+        height: 50vh;
+    }
+
+    .o_nas h2{
+        font-size: 2vh;
+    }
+
+    #kontakt h1{
+        font-size: 2vh;
+    }
+
+    .pole{
+        padding:2vh;
+    }
 }
